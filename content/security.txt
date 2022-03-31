@@ -1,0 +1,23 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: mailto:info@flxs.co.uk
+Encryption: https://www.flxs.co.uk/gpg-key.txt
+Canonical: https://www.flxs.co.uk/.well-known/security.txt
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAEBCgAuFiEECeLSoQNlNmpNHeNu4+F03aQ69GMFAl8n1sAQHGluZm9AZmx4
+cy5jby51awAKCRDj4XTdpDr0Y/KxEACxKfI5h3tZVVZXHVPAywYhqupfm3lhZVBF
+sd0xrDnP5qYJb6WUjGk8yy84acgSijiy494d8ZnRZMZ3T0GHIKBI+UrFbqrumASS
+789IeeeAQTLMFcxuv+CruuIuQzMX87WQmTFFqiMtr8VbMdrXvfmH8xvzqdGjqEc7
+v3lCeNuXXAb+bUs+XEt4d/BQStAaqqmpRdWQISqbv6pgt8QhcjNJo9RbAclfNKoQ
+4JP19jS9u9lVw2h2LcAlk10DnJV1F4TLDhV8Vz+K7JTD/P/GXyRfBlSrwUc8M/cc
+KuPGaJ/s2h61BweYLZHcrj7l3RERP8bSxVCRWU1xYllcz3DxR+B7BoAlKMdpWG3m
+s0Rm4iRE0MbkFINN5psbpWSBvagWHj581N5u2LMi+WWPGmyx0hhc873258LFblo/
+onuVTUXtpwB6A3kHJbU/SQwUO2xqSitITT2bmELdXVwdfv1fBn4Yl3UA2hNB2ehM
+o1imUatqR+wICws81Xm1tkndJ3MHltUgI/6fgUO1aZyHnrelveN9ZXI6j2DtpTkr
+fb4wAmkhppVubtSUpf2o2faRDb+pMsrX1Nya08Uiqggn99BaWEFFldY65aDlcVq4
+/Fe8dx2PFYW7X6os2SN/3jBWSWFV54jcgcGgGch9SiutxzLWJLp618tRWNwa+bnt
+9AH5hLmvIg==
+=tjHu
+-----END PGP SIGNATURE-----

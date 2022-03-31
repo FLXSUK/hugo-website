@@ -1,0 +1,7 @@
+baseURL = "/"
+languageCode = "en-gb"
+title = "FLXS"
+theme = "flxs"
+
+disableKinds = ["RSS"]
+uglyurls = true

@@ -1,0 +1,215 @@
+@import "_settings.scss";
+@import "_typography.scss";
+
+@import "_roadmap.scss";
+@import "_footer.scss";
+
+html {
+    background-color: rgb(251, 249, 249)
+}
+body {
+    margin-top: 0;
+    padding-top: 6rem;
+    background-color: rgb(251, 249, 249);
+    
+    background-image: url(/img/honeycomb-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+// LOGO
+.logoWrapper {
+    text-align: center;
+    margin-bottom: 2rem;
+    
+    &.black {
+        background-color: black;
+    }
+    &.white {
+        background-color: white;
+    }
+    &.silver {
+        background-color: silver;
+    }
+    
+    .company-logo {
+        font-size: 6rem;
+    }
+}
+.company-logo {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 2rem;
+
+    .code { 
+        color: black; 
+    }
+    .text { 
+        color: $primary-color; 
+    }
+    .colon { 
+        position: relative; top: -10%; 
+    }
+
+    &.on-dark {
+        .code {
+            color: white;
+        }
+    }
+    
+    &.mono {
+        .code {
+            color: slateblue;
+        }
+        .text {
+            color: slateblue;
+        }
+        .colon {
+            color: slateblue;
+        }
+    }
+}
+
+// Heros
+.hero {
+    margin-top: -6rem;
+    margin-bottom: 2rem;
+    
+    min-height: 375px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        padding-top: 5%;
+        font-family: monospace;
+        font-weight: bold;
+        color: $primary-color;
+    }
+}
+
+#particle-painter-hero {
+    background-image: url('/img/software/particle-painter.gif');
+    background-position: center center;
+    background-size: cover;
+}
+#credits-hero {
+    background-image: url('/img/credits-hero-bg.jpg');
+    background-position: center center;
+}
+
+// Navigation
+.navbar {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    background-color: rgba(0,0,0,0.8);
+
+    &.with-hero {
+        background-color: rgba(0,0,0,0.6);
+    }
+    
+    a {
+        color: white;
+        &:hover, &:focus {
+            color: $primary-color;
+        }
+    }
+}
+
+
+.pageIntro {
+    
+    
+    text-align: center;
+    h1 {
+        font-weight: bold;
+        margin-bottom: 1rem;
+        .altColor {
+            color: $primary-color;
+        }
+    }
+    p {
+        font-size: 1.3rem;
+        color: #666;
+        
+        a.moreInfo {
+            font-size: 1rem;
+            color: #666;
+        }
+    }
+    .btn {
+        font-size: inherit;
+    }
+}
+
+.pageSecondaryPromo {
+    text-align: center;
+    h2 {
+        font-weight: bold;
+    }
+    p {
+        font-size: 1.2rem;
+        color: #666;
+    }
+}
+
+.factBlocks {
+    p {
+        span.label {
+            display: block;
+            font-weight: bold;
+            font-size: 1.1rem;
+            color: $primary-color;
+        }
+    }
+}
+
+.altblk1 {
+    background-color: #eee;
+}
+
+.userProfile {
+    .roleBadge {
+        border: 1px solid #ccc;
+        background-color: white;
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+        
+        .icon {
+            font-size: 5rem;
+            color: #745bf0;
+        }
+        
+        .badgeTitle {
+            font-weight: bold;
+            font-size: 1.2rem;
+            padding: 0;
+            color: $primary-color;
+        }
+        .badgeTagline {
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: black;
+            padding: 0;
+            margin: 0 0 0.5rem 0;
+        }
+        .badgeMessage {
+            font-size: 0.75rem;
+            color: #333;
+            font-style: italic;
+            padding: 0;
+            margin: 0;
+        }
+    }
+}
+
+
+
+form {
+    label {
+        display: block;
+        font-weight: bold;
+        font-size: 1.1rem;
+        color: $primary-color;
+    }
+}

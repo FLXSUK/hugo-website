@@ -1,0 +1,29 @@
+// Footer
+footer {
+    
+    border-top: 1px solid red;
+    padding: 1rem;
+    width: 100%;
+    
+    box-sizing: border-box;
+    font-size: 10pt;
+    color: #848383;
+    background-color: rgb(50, 50, 50);
+
+    .company-logo {
+        display: block;
+    }
+    
+    p {
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        color: white;
+        
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}

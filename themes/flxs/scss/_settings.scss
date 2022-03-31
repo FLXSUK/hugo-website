@@ -1,0 +1,26 @@
+/* COLOURS */
+
+$primary-color: rgb(200,0,0);
+$primary-color-hover: black;
+$text-on-primary-color: black;
+
+$highlight-normal: #b72a2a;
+
+
+$main-text-color: #333;
+$label-color: #666;
+
+$link-normal: $primary-color;
+$link-hover: $primary-color-hover;
+
+$button-normal: $primary-color;
+$button-hover: $primary-color-hover;
+$button-text-color: white;
+
+$input-border: $primary-color;
+$input-border-focus: $primary-color-hover;
+
+$transition_slow: 0.5s;
+$transition_fast: 0.2s;
+
+$border-radius: 5px;

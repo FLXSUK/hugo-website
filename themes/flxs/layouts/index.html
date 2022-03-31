@@ -1,0 +1,21 @@
+<!doctype html>
+<html class="no-js emptyPage" lang="en">
+<head>
+    {{- partial "head.html" . -}}
+</head>
+<body>
+    {{- partial "navbar.html" . -}}
+
+    <div class="" id="main-content">
+        {{ .Content }}
+    </div>
+    
+    {{- partial "footer.html" . -}}
+
+<script type="text/javascript">
+    var FLXSEnv = {
+        authService: "http://localhost:9091"
+    }
+</script>
+</body>
+</html>

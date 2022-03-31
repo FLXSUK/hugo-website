@@ -1,0 +1,55 @@
+.roadmapContainer {
+    .targetDate {
+        i {
+            display: block;
+            font-size: 3rem;
+        }
+        display: block;
+        margin: 1rem;
+        font-size: 2rem;
+        color: $primary-color;
+    }
+    .targetPrice {
+        display: block;
+        
+    }
+    
+    .featureCard {
+        .card-header {
+            overflow: hidden;
+            position: relative;
+            height: 105px;
+            i {
+                font-size: 7rem;
+                transform: rotate(-30deg);
+                color: rgba(0, 150, 0, 0.7);
+                position: relative;
+                top: -16px;
+                left: 10px;
+            }
+        }
+        .card-body {
+            .card-title {
+                color: rgba(0, 150, 0, 1);
+            }
+        }
+    }
+    
+    .statusTable {
+        tr {
+            td {
+                .label {
+                    font-weight: bold;
+                    font-style: normal;
+                    display: block;
+                }
+                font-style: italic;
+            }
+        }
+    }
+}
+
+
+.roadmap {
+    
+}
